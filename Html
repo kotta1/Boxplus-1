@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+  <title>NebulaCompany</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      color: #4CAF50;
+    }
+
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+
+    .content {
+      flex: 3;
+      min-width: 300px;
+    }
+
+    .post {
+      background-color: #1a1a1a;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .post img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .post h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .post .category {
+      font-size: 14px;
+      color: #bbb;
+    }
+
+    .post .date {
+      font-size: 12px;
+      color: #777;
+      margin-top: 10px;
+    }
+
+    .sidebar {
+      flex: 1;
+      min-width: 250px;
+      padding: 20px;
+      background-color: #1a1a1a;
+      margin-left: 20px;
+      border-radius: 8px;
+    }
+
+    .sidebar h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .sidebar input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #444;
+      background-color: #222;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media screen and (orientation: portrait) {
+      body::before {
+        content: "Por favor gira tu dispositivo a horizontal para ver el contenido correctamente.";
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .main-container, footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="https://iili.io/3l1AZ7a.md.png" alt="Nebula Company" style="max-width: 100px; height: auto;">
+      <nav>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="https://secure.tagged.com/register.html?display=login&loc=es_CO/">Chat</a></li>
+          <li><a href="#">Contacto</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="content">
+      <article class="post">
+      
+   
+    <article class="post">
+  <h3>Serie Próximamente : Star Wars - Clone Wars</h3>
+  <p class="category"></p>
+  <p></p>
+  <p class="date"></p>
+  <p>
+    Trailer en :
+    <a href="https://youtu.be/3CJUjxfQagA?si=e4Z813Ue3vYWkGj5" target="_blank" style="color: #4CAF50; text-decoration: underline;">
+      YouTube
+    </a>
+  </p>
+</article>
+
+
+     
+    </div>
+
+    <aside class="sidebar">
+  <h3></h3>
+  <!-- Barra de búsqueda eliminada -->
+</aside>
+  </div>
+
+  <footer>
+    <p>Box_Plus © 2025. Reservado Todos Los Derechos.</p>
+  </footer>
+
+</body>
+</html>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .post {
+    background-color: #000; /* antes era #1a1a1a */
+  }
+
+  .sidebar {
+    background-color: #000; /* antes era #1a1a1a */
+  }
+
+  .sidebar input {
+    background-color: #000; /* antes era #222 */
+    border: 1px solid #fff;
+  }
+
+  .post .category {
+    color: #fff; /* antes #bbb */
+  }
+
+  .post .date {
+    color: #ccc; /* antes #777 */
+  }
+
+  nav ul li a:hover {
+    color: #fff; /* antes #4CAF50 */
+  }
+</style>
